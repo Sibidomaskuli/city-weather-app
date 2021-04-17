@@ -1,9 +1,7 @@
 import React from "react";
 
-export default function Weather() {
-    return (
-    <h2>
-        Hello from Chicago
-    </h2>
+export default function Weather(){
+    return(
+        Hello
     )
 }
