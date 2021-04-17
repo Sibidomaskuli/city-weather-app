@@ -3,6 +3,13 @@ import Header from "./Header"
 import Temperature from "./Temperature"
 import Search from "./Search"
 import Submit from "./Submit"
+import ColumnOne from "./ColumnOne"
+import ColumnTwo from "./ColumnTwo"
+import ColumnThree from "./ColumnThree"
+import ColumnFour from "./ColumnFour"
+import ColumnFive from "./ColumnFive"
+import ColumnSix from "./ColumnSix"
+import Footer from "./Footer"
 
 
 import './App.css';
