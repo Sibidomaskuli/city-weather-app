@@ -17,8 +17,10 @@ export default function Search() {
   }
 
   function displayForecast(response) {
-    alert (`The weather in ${city} is ${Math.round(response.data.main.temp)}°C
-    feels like ${Math.round(response.data.main.feels_like)}°C`) 
+    alert (`${city}'s weather : ${response.data.weather[0].description} 
+    temp : ${Math.round(response.data.main.temp)}°C
+    feels like : ${Math.round(response.data.main.feels_like)}°C
+    Have a great day.. 🤖`) 
     console.log(response.data); 
   }
 

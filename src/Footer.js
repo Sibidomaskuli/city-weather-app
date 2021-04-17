@@ -7,16 +7,14 @@ export default function Footer() {
       <div>
         <small className="link">
           <a
-            href="https://github.com/Sibidomaskuli/city-weather-app.git"
+            href="https://github.com/Sibidomaskuli/city-weather-app"
             target="_blank"
-            rel="noreferrer"
           >
             Open-source code
           </a>
-          , by Shirin Eldris 🤖
+          , by <i>Shirin Eldris</i> 🤖
         </small>
       </div>
     </div>
   );
 }
-
