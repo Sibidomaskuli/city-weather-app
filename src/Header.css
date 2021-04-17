@@ -1,0 +1,17 @@
+#inject-text {
+    font-size: larger;
+  }
+  #font-size {
+    font-size: xx-large;
+  }
+  #sky-view {
+    font-size: larger;
+    font-family: cursive;
+  }
+  #temp-feel {
+    font-size: larger;
+    font-family: cursive;
+  }
+  #degree {
+    font-size: x-large;
+  }

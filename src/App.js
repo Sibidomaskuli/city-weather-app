@@ -1,4 +1,8 @@
 import React from "react"; 
+import Header from "./Header"
+import Temperature from "./Temperature"
+import Search from "./Search"
+import Submit from "./Submit"
 
 
 import './App.css';
