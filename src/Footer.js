@@ -7,7 +7,7 @@ export default function Footer() {
       <div>
         <small className="link">
           <a
-            href="https://github.com/Sibidomaskuli/raindrops-keep-falling-on-my-head.git"
+            href="https://github.com/Sibidomaskuli/city-weather-app.git"
             target="_blank"
             rel="noreferrer"
           >
