@@ -7,7 +7,7 @@ export default function Submit() {
 			<input type="button" value="my current location" id="clickIt" />
 			<a
 				href="#"
-				class="list-group-item list-group-item-action"
+				className="list-group-item list-group-item-action"
 				rel="noreferrer">
 				<div className="d-flex w-250 justify-content-between">
 					<medium className="text-muted" id="weather">

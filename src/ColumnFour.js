@@ -13,7 +13,7 @@ export default function ColumnFour() {
                   Monday <br />
                   <br />
                 </div>
-                <h1 class="card-title">
+                <h1 className="card-title">
                   <img
                     id="icon-5"
                     src="https://openweathermap.org/img/wn/03d@2x.png"

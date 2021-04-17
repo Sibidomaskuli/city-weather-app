@@ -1,7 +1,7 @@
 import React from "react";
 import "./ColumnOne";
 
-export default function ColumnOne1() {
+export default function ColumnOne() {
   return (
     <div className="ColumnOne col-sm-4">
       <div className="card">
