@@ -17,7 +17,8 @@ export default function Search() {
   }
 
   function displayForecast(response) {
-    alert(Math.round(response.data.main.temp)); 
+    alert (`The weather in ${city} is ${Math.round(response.data.main.temp)}°C
+    feels like ${Math.round(response.data.main.feels_like)}°C`) 
     console.log(response.data); 
   }
 
