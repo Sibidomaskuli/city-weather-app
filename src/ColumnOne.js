@@ -10,7 +10,7 @@ export default function ColumnOne() {
             <div className="card-body">
               <span id="column-1">
                 <div className="card-header bg-transparent border-success">
-                  Tomorrow <br />
+                  Yesterday <br />
                   <br />
                 </div>
                 <h6 className="card-title">
@@ -22,10 +22,10 @@ export default function ColumnOne() {
                 </h6>
                 <br />
                 <p className="card-text">
-                  max temp 3° <br />
-                  min temp 1°
+                  max temp 2° <br />
+                  min temp 0°
                 </p>
-                <small>windy</small>
+                <small>rain</small>
               </span>
             </div>
           </div>

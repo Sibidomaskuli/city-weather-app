@@ -17,7 +17,7 @@ export default function ColumnFive() {
                   <h1 className="card-title">
                     <img
                       id="icon-6"
-                      src="https://openweathermap.org/img/wn/02d@2x.png"
+                      src="https://openweathermap.org/img/wn/04d@2x.png"
                       alt="clear"
                     />
                   </h1>

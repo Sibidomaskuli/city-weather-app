@@ -20,8 +20,8 @@ export default function ColumnTwo() {
                   </div>
                   <h1 className="card-title">
                     <img
-                      id="icon-3"
-                      src="https://openweathermap.org/img/wn/04d@2x.png"
+                      id="icon-3"                      
+                      src="https://openweathermap.org/img/wn/02d@2x.png"
                       alt="clear"
                     />
                   </h1>
@@ -30,7 +30,7 @@ export default function ColumnTwo() {
                     max temp 5° <br />
                     min temp 2°
                   </p>
-                  <small>light snow</small>
+                  <small>cold</small>
                 </span>
               </div>
             </div>

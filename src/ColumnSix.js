@@ -15,15 +15,15 @@ export default function ColumnSix() {
                 </div>
                 <h1 className="card-title">
                   <img
-                    id="icon-7"
-                    src="https://openweathermap.org/img/wn/13d@2x.png"
+                    id="icon-7"                    
+                    src="https://openweathermap.org/img/wn/03d@2x.png"
                     alt="clear"
                   />
                 </h1>
                 <br />
                 <p className="card-text">
                   max temp -1° <br />
-                  min temp -7°
+                  min temp -3°
                 </p>
                 <small>light snow</small>
               </span>

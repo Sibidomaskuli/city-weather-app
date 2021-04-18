@@ -15,8 +15,8 @@ export default function ColumnFour() {
                 </div>
                 <h1 className="card-title">
                   <img
-                    id="icon-5"
-                    src="https://openweathermap.org/img/wn/03d@2x.png"
+                    id="icon-5"                    
+                    src="https://openweathermap.org/img/wn/01d@2x.png"
                     alt="clear"
                   />
                 </h1>

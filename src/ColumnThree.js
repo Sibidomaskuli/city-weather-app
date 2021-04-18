@@ -25,7 +25,7 @@ export default function ColumnThree() {
                   max temp 3° <br />
                   min temp 1°
                 </p>
-                <small>windy</small>
+                <small>rain</small>
               </span>
             </div>
           </div>
