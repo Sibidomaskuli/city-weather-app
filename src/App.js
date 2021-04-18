@@ -24,13 +24,7 @@ function App() {
           <div className="card">
             <div className="card-body">
               <div className="list-group">
-                <span className="border border-primary">
-                  <a
-                    href="#"
-                    className="list-group-item list-group-item-action active"
-                    aria-current="true"
-                    rel="noreferrer"
-                  />
+                <span className="border border-primary">                  
                   <Header />
                   <Temperature />
                   <Search />

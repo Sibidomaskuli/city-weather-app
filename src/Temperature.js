@@ -5,9 +5,13 @@ export default function Temperature() {
   return (
     <div className="Temperature">
       <strong>
-        <a href="#" className="active" id="celsius" rel="noreferrer"></a>
-        °C|°F
-        <a href="#" className="active" id="fahrenheit" rel="noreferrer"></a>
+        <span className="active" id="celsius">
+        °C
+        </span>
+        |
+        <span className="active" id="fahrenheit">
+        °F
+        </span>
       </strong>
     </div>
   );

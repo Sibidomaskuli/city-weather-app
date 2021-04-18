@@ -9,6 +9,7 @@ export default function Footer() {
           <a
             href="https://github.com/Sibidomaskuli/city-weather-app"
             target="_blank"
+            rel="noreferrer"
           >
             Open-source code
           </a>
