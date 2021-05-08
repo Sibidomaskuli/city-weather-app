@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import WeatherInfo from "./WeatherInfo";
+import DailyForecast from "./DailyForecast";
 import Footer from "./Footer";
 import axios from "axios"; 
 import "./Forecast.css";
@@ -42,7 +43,7 @@ export default function Forecast (props){
    return (
     <div className="card">
      <div className="card-body">
-      <h3>Weather Search App</h3>
+      <h3>Weather Search</h3>
       <form onSubmit={handleSubmit}>
        <div className="row">
         <div className="col-10">
@@ -64,6 +65,7 @@ export default function Forecast (props){
        </div>
       </form>
       <WeatherInfo data={weatherData} />
+      <DailyForecast />
      </div>
      <Footer />
     </div>
