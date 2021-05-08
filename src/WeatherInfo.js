@@ -12,7 +12,7 @@ export default function WeatherInfo(props) {
       <div className="Clearfix">
        <div className="float-left">
         <WeatherIcon
-         code={props.data.icon} />
+         code={props.data.icon} size={50} />
        </div>       
       </div>
       <Converter celsius={props.data.temperature}/>
