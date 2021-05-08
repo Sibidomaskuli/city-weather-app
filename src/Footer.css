@@ -1,7 +1,11 @@
-.link {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 3;
-  }
-  
+em {
+  color: tomato
+ }
+ 
+ .purple {
+  color: #845ec2
+ }
+ 
+ .green {
+  color: #75cfb8;  
+ }

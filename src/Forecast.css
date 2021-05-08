@@ -1,0 +1,82 @@
+.card {  
+  border-top: 280px; 
+  position: flexible;
+  margin: 29 px;
+  margin-top: 70px; 
+ }
+ 
+ .card-body {
+  padding: 10px;   
+  border-radius: 4px;
+  background-color: #bedcfa;
+ }
+ 
+ .card-body form {
+  margin-bottom: 5px;
+ }
+ 
+ h3 {
+  margin-left: 300px;
+ }
+ 
+ .temperature {
+  display: inline-block;
+  font-size: 50px;
+  line-height: 64px; 
+  padding-left: 5px; 
+  padding-top: 0;  
+ }
+ 
+ .Units {
+  color: #868b90;
+  font-size: 17px;
+  font-weight: 400;
+  position: relative;
+  top: -26px;
+  line-height: 2;
+  margin-left: 5px;
+ }
+ 
+ .Forecasting {
+  color: #868b90;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 16px;
+  list-style: none;  
+ }
+ 
+ .cityName {
+  color: black;
+  display: block;
+  font-family: arial, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  height: 23px;
+  line-height: 24px;
+  text-align: right;
+  width: 340px;
+  list-style: none;
+ }
+ 
+ .Footer {
+  margin-left: 175px
+ }
+ 
+ form {
+  padding-bottom: 18px;
+ }
+ 
+ .col-2 {
+ padding-bottom: 2px;
+ padding-left: 2px;
+ padding-right: 62px;
+ padding-top: 6px;
+ text-align: center;
+ border-bottom-width: px;
+ }
+ 
+ .col-10 {
+  padding-top: 6px;
+  padding-right: 1px; 
+ }
+ 
