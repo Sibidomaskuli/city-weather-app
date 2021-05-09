@@ -1,6 +1,5 @@
 import React from "react";
 import Forecast from "./Forecast";
-
 import './App.css';
 
 export default function App() {
@@ -9,6 +8,6 @@ export default function App() {
       <div className="container">
         <Forecast defaultCity="Beirut" />
       </div>    
-    </div>         
+    </div>       
   );
 }

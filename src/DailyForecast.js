@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import WeatherIcon from "./WeatherIcon";
 import "./DailyForecast.css"; 
 import axios from "axios";
+import DailyForecastDay from "./DailyForecastDay";
 
 export default function DailyForecast(props) {
  let [loaded, setloaded]=useState(false);
@@ -14,25 +15,16 @@ export default function DailyForecast(props) {
 
  if (loaded) {
   console.log(forecast); 
-   return (
-    <div className="DailyForecast">
-     <div className="row">
-      <div className="col">
-       <div className="DailyForecast-day">
-        <strong>Saturday</strong>
-       </div>
-       <WeatherIcon code="09d" size={36} />
-       <div className="DailyForecast-temperature">
-             <strong className="DailyForecast-temperature-morn">
-             
-               {forecast[0].temp.morn}°{" "}|{" "}</strong>
-        <span className="DailyForecast-temperature-night">{forecast[0].temp.night}°</span>
-       </div>
-      </div>
+  return (
+   <div className="DailyForecast">
+    <div className="row">
+     <div className="col">
+      <DailyForecastDay code={forecast[0]} />
      </div>
     </div>
-   );
-  } else {
+   </div>
+  );
+ } else {
   const key="64c64ffadfe4c3d751ef8a44c2608885";
   let longitude = props.coordinates.lon;
   let latitude = props.coordinates.lat; 
@@ -41,5 +33,8 @@ export default function DailyForecast(props) {
   axios.get(url).then(displayResponse);
   
   return null;   
+  }
 }
-}
+ 
+  
+        
