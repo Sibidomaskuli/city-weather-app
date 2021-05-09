@@ -24,8 +24,7 @@ export default function Forecast (props){
    axios.get(url).then(displayResult);   
   }
   
- function displayResult(response) {
-  console.log(response.data);
+ function displayResult(response) {  
    setWeatherData({    
     ready: true, 
     temperature: Math.round(response.data.main.temp),

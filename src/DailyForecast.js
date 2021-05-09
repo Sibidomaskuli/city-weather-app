@@ -4,8 +4,8 @@ import "./DailyForecast.css";
 import axios from "axios";
 
 export default function DailyForecast() {
-  function displayResponse() {
-    console.log(Response.data); 
+  function displayResponse(response) {
+    console.log(response.data); 
   }
   const key="64c64ffadfe4c3d751ef8a44c2608885";
   let longitude=40.7;
