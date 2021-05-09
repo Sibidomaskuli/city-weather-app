@@ -7,7 +7,7 @@ export default function Footer (){
    <footer>
     Brain- stormed by <em>Shirin Eldris</em> 🤖, {""}
     <a
-     href="https://github.com/Sibidomaskuli/mini-weather-app-homework"
+     href="https://github.com/Sibidomaskuli/sunny-disposition.git"
      className="purple"
      target="_blank"
      rel="noopener noreferrer"
