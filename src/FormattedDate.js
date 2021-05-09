@@ -1,7 +1,6 @@
 import React from "react";
 
-export default function FormattedDate(props) {
-  console.log(props.date);
+export default function FormattedDate(props) {  
   let now = new Date();
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let today = days[now.getDay()];
