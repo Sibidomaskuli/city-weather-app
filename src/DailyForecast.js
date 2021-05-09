@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import WeatherIcon from "./WeatherIcon";
 import "./DailyForecast.css"; 
 import axios from "axios";
 import DailyForecastDay from "./DailyForecastDay";
@@ -13,8 +12,7 @@ export default function DailyForecast(props) {
    setloaded(true);
   }
 
- if (loaded) {
-  console.log(forecast); 
+ if (loaded) {  
   return (
    <div className="DailyForecast">
     <div className="row">

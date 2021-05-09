@@ -34,7 +34,7 @@ export default function Forecast (props){
     wind: Math.round(response.data.wind.speed),
     city: response.data.name,
     description: response.data.weather[0].description,
-    date: new Date(response.data.dt*1000),
+    date: new Date(response.data.dt * 1000),
     icon: response.data.weather[0].icon, 
    });
   }
