@@ -9,7 +9,7 @@ export default function DailyForecast() {
     <div className="col">
      <div className="DailyForecast-day">
       <strong>Saturday</strong>           
-     </div>     
+     </div>    
     <WeatherIcon code="09d" size={36} />
      <div className="DailyForecast-temperature">
       <strong className="DailyForecast-temperature-max">9°{" "}|{" "}</strong>
