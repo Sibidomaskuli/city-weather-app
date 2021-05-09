@@ -4,12 +4,12 @@ import WeatherIcon from "./WeatherIcon";
 export default function DailyForecastDay(props) {
  function mornTemperature() {
   let temperature=Math.round(props.data.temp.morn);
-  return `${temperature}`
+  return `${temperature}`;
  }
 
  function nightTemperature() {
   let temperature=Math.round(props.data.temp.night);
-  return `${temperature}`
+  return `${temperature}`;
   }
   
   function day() {

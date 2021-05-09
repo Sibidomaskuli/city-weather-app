@@ -17,11 +17,12 @@ export default function DailyForecast(props) {
    <div className="DailyForecast">
     <div className="row">
      <div className="col">
-      <DailyForecastDay code={forecast[0]} />
+      <DailyForecastDay data={forecast[0]} />
      </div>
     </div>
    </div>
   );
+  
  } else {
   const key="64c64ffadfe4c3d751ef8a44c2608885";
   let longitude = props.coordinates.lon;

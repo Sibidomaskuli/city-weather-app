@@ -6,38 +6,38 @@ import axios from "axios";
 import "./Forecast.css";
 
 export default function Forecast (props){
- const [city, setCity] = useState(props.defaultCity);
- const [weatherData, setWeatherData] = useState({ ready: false});
-
- function updateCity (event){
-  setCity(event.target.value);
- }
-
-  function handleSubmit(event) {
-    event.preventDefault();
-    search();
-  }
-
-  function search() {
-   const key="64c64ffadfe4c3d751ef8a44c2608885";
-   let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
-   axios.get(url).then(displayResult);   
-  }
-  
+  const [weatherData, setWeatherData] = useState({ ready: false});
+  const [city, setCity] = useState(props.defaultCity);
+ 
  function displayResult(response) {  
    setWeatherData({    
     ready: true,
     coordinates: response.data.coord,
     temperature: Math.round(response.data.main.temp),
     pressure: response.data.main.pressure, 
+    date: new Date(response.data.dt * 1000),
     humidity: response.data.main.humidity,
     wind: Math.round(response.data.wind.speed),
     city: response.data.name,
     description: response.data.weather[0].description,
-    date: new Date(response.data.dt * 1000),
     icon: response.data.weather[0].icon, 
    });
   }
+  
+  function handleSubmit(event) {
+    event.preventDefault();
+    search();
+  }
+  
+  function updateCity(event) {
+  setCity(event.target.value);
+ }
+  
+ function search() {
+  const key="64c64ffadfe4c3d751ef8a44c2608885";
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
+  axios.get(url).then(displayResult);   
+ }
   
   if (weatherData.ready) {
    return (

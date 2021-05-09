@@ -4,13 +4,13 @@ export default function FormattedDate() {
   let now = new Date();
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let today = days[now.getDay()];
-  let theHours = now.getHours();
-  theHours = ("0" + theHours).slice(-2);
-  let theMinutes = now.getMinutes();
-  theMinutes = ("0" + theMinutes).slice(-2);
+  let hours = now.getHours();
+  hours = ("0" + hours).slice(-2);
+  let minutes = now.getMinutes();
+  minutes = ("0" + minutes).slice(-2);
     return (
     <div>
-      {today} {theHours}:{theMinutes}
+      {today} {hours}:{minutes}
     </div>
   );
 }
