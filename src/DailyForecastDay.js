@@ -33,7 +33,11 @@ export default function DailyForecastDay(props) {
     <span className="DailyForecast-temperature-night">
     <i class="bi bi-cloud-moon-fill"></i>{" "}
      {nightTemperature()}°</span>
-   </div> {/*DailyForecast-temperature*/}
+     </div> {/*DailyForecast-temperature*/}
+     <span><small>
+       {props.data.weather[0].description}
+     </small>
+     </span>
   </div>
  );
 }
