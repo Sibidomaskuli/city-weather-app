@@ -9,7 +9,7 @@ export default function Forecast (props){
   const [weatherData, setWeatherData] = useState({ ready: false});
   const [city, setCity] = useState(props.defaultCity);
  
- function displayResult(response) {  
+  function displayResult(response) {     
    setWeatherData({    
     ready: true,
     coordinates: response.data.coord,
@@ -20,6 +20,7 @@ export default function Forecast (props){
     wind: Math.round(response.data.wind.speed),
     city: response.data.name,
     description: response.data.weather[0].description,
+    precipitation: response.data.clouds.all,
     icon: response.data.weather[0].icon, 
    });
   }
